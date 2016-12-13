@@ -77,6 +77,9 @@ A.arrow-link:after {
 }
 
 INPUT[type="text"],
+INPUT[type="email"],
+INPUT[type="password"],
+TEXTAREA,
 SELECT {
   outline: 0;
   border: 0;
@@ -98,14 +101,28 @@ SELECT {
   overflow: auto; /* Good ol' IE */
 }
 
+TEXTAREA {
+  padding: 0.9em 1em;
+  height: 14em;
+}
+
 INPUT::-webkit-input-placeholder { color: #3D2B02; uppercase; opacity: 1; }
 INPUT:-moz-placeholder { color: #3D2B02; uppercase; opacity: 1; } /* FF 4-18 */
 INPUT::-moz-placeholder { color: #3D2B02; uppercase; opacity: 1; } /* FF 19+ */
 INPUT:-ms-input-placeholder { color: #3D2B02; uppercase; opacity: 1; } /* IE 10+ */
+TEXTAREA::-webkit-input-placeholder { color: #3D2B02; opacity: 1; }
+TEXTAREA:-moz-placeholder { color: #3D2B02; opacity: 1; } /* FF 4-18 */
+TEXTAREA::-moz-placeholder { color: #3D2B02; opacity: 1; } /* FF 19+ */
+TEXTAREA:-ms-input-placeholder { color: #3D2B02; opacity: 1; } /* IE 10+ */
+
 INPUT:focus::-webkit-input-placeholder { color: transparent; }
 INPUT:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
 INPUT:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
 INPUT:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
+TEXTAREA:focus::-webkit-input-placeholder { color: transparent; }
+TEXTAREA:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
+TEXTAREA:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
+TEXTAREA:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
 
 SELECT {
   padding-right: 30px;
@@ -118,8 +135,9 @@ SELECT {
 
 .select:after {
   position: absolute;
-  top: 1px;
   right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
   z-index: 1;
   font-family: 'FontAwesome';
   content: "\f0d7";
