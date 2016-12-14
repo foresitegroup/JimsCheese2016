@@ -1,10 +1,18 @@
 <ul class="menu-left">
   <li>
-    <a href="#">Products</a>
+    <a href="products.php">Products</a>
     <ul>
-      <li><a href="#">Lake Forest Artisan</a></li>
-      <li><a href="#">Aged Cheese</a></li>
-      <li><a href="#">Specialty Cheese</a></li>
+      <?php
+      include_once "inc/dbconfig.php";
+      
+      $msubresult = $mysqli->query("SELECT * FROM products_category WHERE publish = 'on' ORDER BY sort+0 ASC");
+
+      while($msubrow = $msubresult->fetch_array(MYSQLI_ASSOC)) {
+        echo "<li><a href=\"products.php?" . $msubrow['id'] . "\">" . $msubrow['name'] . "</a></li>\n";
+      }
+
+      $msubresult->close();
+      ?>
     </ul>
   </li>
   <li>
@@ -13,7 +21,7 @@
       <li><a href="#">Lake Forest Artisan</a></li>
     </ul>
   </li>
-  <li><a href="#">Where to Buy</a></li>
+  <li><a href="where-to-buy.php">Where to Buy</a></li>
 </ul>
 <ul class="menu-right">
   <li><a href="#">Jim's Blog</a></li>

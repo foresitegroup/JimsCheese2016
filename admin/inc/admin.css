@@ -254,12 +254,23 @@ SELECT {
   background-position: center center;
   background-size: cover;
   margin: 1%;
+  margin-bottom: 1.5em;
+  position: relative;
 }
 
 .mm-image:after {
   padding-top: 100%;
   display: block;
   content: '';
+}
+
+.mm-image-text {
+  position: absolute;
+  bottom: -1.6em;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 80%;
 }
 
 #image {
@@ -270,6 +281,7 @@ SELECT {
 
 .ui-widget-overlay {
   opacity: 0.9;
+  z-index: 99999;
 }
 
 .ui-dialog .ui-dialog-content {

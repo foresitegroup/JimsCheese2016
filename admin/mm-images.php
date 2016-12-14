@@ -9,6 +9,6 @@ usort($files, function($a, $b) {
 
 foreach ($files as $filepath) {
   $file = basename($filepath); 
-  echo "<div class=\"mm-image select-image\" style=\"background-image: url(" . $filepath . "); \"title=\"" . $file . "\"></div>\n";
+  echo "<div class=\"mm-image select-image\" style=\"background-image: url(" . $filepath . "); \"title=\"" . $file . "\"><div class=\"mm-image-text\">" . $file . "</div></div>\n";
 }
 ?>
