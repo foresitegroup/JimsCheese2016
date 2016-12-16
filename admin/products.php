@@ -64,20 +64,20 @@ include "header.php";
     $result = $mysqli->query($query);
 
     while($row = $result->fetch_array(MYSQLI_ASSOC)) {
-      echo "<div class=\"controls\">";
-        echo "<a href=\"products-edit.php?id=" . $row['id'] . "\" title=\"Edit\" class=\"c-edit\"><i class=\"fa fa-pencil\"></i></a>";
-        echo "<a href=\"products-db.php?a=delete&id=" . $row['id'] . "\" onClick=\"return(confirm('Are you sure you want to delete this record?'));\" title=\"Delete\" class=\"c-delete\"><i class=\"fa fa-trash\"></i></a>";
-        echo "<a href=\"#\" class=\"pub\" id=\"" . $row['id'] . "\" title=\"" . $row['publish'] . "\"><i class=\"fa fa-toggle-" . $row['publish'] . "\"></i></a>";
-      echo "</div>";
+      echo "<div class=\"controls\">\n";
+        echo "<a href=\"products-edit.php?id=" . $row['id'] . "\" title=\"Edit\" class=\"c-edit\"><i class=\"fa fa-pencil\"></i></a>\n";
+        echo "<a href=\"products-db.php?a=delete&id=" . $row['id'] . "\" onClick=\"return(confirm('Are you sure you want to delete this record?'));\" title=\"Delete\" class=\"c-delete\"><i class=\"fa fa-trash\"></i></a>\n";
+        echo "<a href=\"#\" class=\"pub\" id=\"" . $row['id'] . "\" title=\"" . $row['publish'] . "\"><i class=\"fa fa-toggle-" . $row['publish'] . "\"></i></a>\n";
+      echo "</div>\n";
 
       echo $row['name'];
 
       if ($_SERVER['QUERY_STRING'] == "") {
         $catname = ($row['PCname'] != "") ? $row['PCname'] : "<span style=\"font-weight: bold; color: #B7262F\";>none</span>";
-        echo "<br><span class=\"small\">Category: " . $catname . "</span>";
+        echo "<br><span class=\"small\">Category: " . $catname . "</span>\n";
       }
 
-      echo "<div style=\"clear: both; height: 0.7em\"></div><br>";
+      echo "<div style=\"clear: both; height: 0.7em\"></div><br>\n";
     }
 
     $result->close();
