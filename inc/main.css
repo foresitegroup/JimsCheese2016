@@ -841,15 +841,9 @@ html {
   text-align: center;
 }
 
-.products.products-single,
-.product {
+.products.products-single {
   float: right;
   width: calc(100% - 215px);
-}
-
-.product {
-  padding: 6.5em 5% 5em;
-  box-sizing: border-box;
 }
 
 .products A {
@@ -906,6 +900,91 @@ html {
 .products.products-single A:hover DIV:after {
   content: "PRODUCT DETAILS";
   line-height: 1.2em;
+}
+
+.product {
+  padding: 5em 4% 3em;
+}
+
+.product-left {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+}
+
+.product-left IMG {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-right {
+  float: left;
+  width: 40%;
+  color: #363636;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 1.9em;
+}
+
+.product .box {
+  margin: 2em 0;
+  border: 12px solid #FBB042;
+  padding: 1.7em;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2em;
+  color: #555555;
+}
+
+.product .box H3 {
+  margin: 0 0 0.75em;
+  color: #593E02;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1em;
+  text-decoration: underline;
+}
+
+.product .box UL {
+  margin: 0 0 0 0.6em;
+  padding: 0 0 0 0.6em;
+}
+
+.product .box UL LI {
+  padding: 0.5em 0;
+}
+
+.product-share {
+  margin: 1.8em 0;
+  padding: 2.5em 0;
+  background: #593E02;
+  color: #FBB042;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 1em;
+  text-align: center;
+}
+
+.product-share A:link,
+.product-share A:visited {
+  color: #FBB042;
+  border: 2px solid #FBB042;
+  border-radius: 50%;
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  padding: 0.2em;
+  margin-left: 0.6em;
+}
+
+.product-share A:hover,
+.product-share A:active {
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
 }
 
 

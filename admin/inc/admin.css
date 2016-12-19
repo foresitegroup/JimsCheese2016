@@ -48,6 +48,12 @@ SELECT {
   font-size: 25px;
 }
 
+.record {
+  float: left;
+  width: calc(100% - 8.5em);
+  margin-bottom: 1.5em;
+}
+
 #sortable .controls {
   width: 6em;
 }

@@ -69,15 +69,17 @@ include "header.php";
         echo "<a href=\"products-db.php?a=delete&id=" . $row['id'] . "\" onClick=\"return(confirm('Are you sure you want to delete this record?'));\" title=\"Delete\" class=\"c-delete\"><i class=\"fa fa-trash\"></i></a>\n";
         echo "<a href=\"#\" class=\"pub\" id=\"" . $row['id'] . "\" title=\"" . $row['publish'] . "\"><i class=\"fa fa-toggle-" . $row['publish'] . "\"></i></a>\n";
       echo "</div>\n";
+      
+      echo "<div class=\"record cf\">\n";
 
-      echo $row['name'];
+        echo $row['name'];
 
-      if ($_SERVER['QUERY_STRING'] == "") {
-        $catname = ($row['PCname'] != "") ? $row['PCname'] : "<span style=\"font-weight: bold; color: #B7262F\";>none</span>";
-        echo "<br><span class=\"small\">Category: " . $catname . "</span>\n";
-      }
+        if ($_SERVER['QUERY_STRING'] == "") {
+          $catname = ($row['PCname'] != "") ? $row['PCname'] : "<span style=\"font-weight: bold; color: #B7262F\";>none</span>";
+          echo "<br><span class=\"small\">Category: " . $catname . "</span>\n";
+        }
 
-      echo "<div style=\"clear: both; height: 0.7em\"></div><br>\n";
+      echo "</div>\n";
     }
 
     $result->close();
@@ -92,7 +94,7 @@ include "header.php";
   $(document).on("click", ".select-image", function() {
     event.preventDefault();
     $("#image").val(this.title);
-    $("#image").css("background-image", 'url(../images/events/'+this.title+')');
+    $("#image").css("background-image", 'url(../images/products/'+this.title+')');
     $("#mediamanager").dialog("close");
   });
 </script>

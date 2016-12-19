@@ -20,26 +20,7 @@ include "header.php";
   </div>
 </div>
 
-<?php if ($_SERVER['QUERY_STRING'] != "") { ?>
-<div class="products-menu">
-  <h2>PRODUCTS</h2>
-
-  <?php
-  $pmresult = $mysqli->query("SELECT * FROM products_category WHERE publish = 'on' ORDER BY sort+0 ASC");
-
-  while($pmrow = $pmresult->fetch_array(MYSQLI_ASSOC)) {
-    echo "<a href=\"products.php?" . $pmrow['id'] . "\"";
-    if ($pmrow['id'] == $CatID) echo " class=\"current\"";
-    echo ">" . $pmrow['name'] . "</a>\n";
-  }
-
-  $pmresult->close();
-  ?>
-</div>
-<?php } ?>
-
-<div class="product">
-  <strong style="color: red;">INDIVIDUAL PRODUCT PAGE HAS NOT BEEN DESIGNED YET</strong><br><br>
+<div class="product cf">
   <?php
   function nl2br_html($string) {
     if(!preg_match("#</.*>#", $string)) return nl2br($string);
@@ -57,14 +38,27 @@ include "header.php";
     return $output;
   }
 
-  echo $row['name'] . "<br>";
-  echo "<img src=\"images/products/" . $row['image'] . "\" alt=\"\"><br>";
-  echo nl2br_html($row['description']);
+  $ShareLink = "http://" . $_SERVER["SERVER_NAME"];
+  if ($_SERVER["SERVER_PORT"] != "80") $ShareLink .= ":".$_SERVER["SERVER_PORT"];
+  $ShareLink .= $_SERVER["REQUEST_URI"];
+  $ShareLink = urlencode($ShareLink);
 
-  $result->close();
+  $ShareText = $ShareText = urlencode("Jim's Cheese | " . $row['name']);
   ?>
+
+  <div class="product-left">
+    <img src="images/products/<?php echo $row['image']; ?>" alt="">
+  </div>
+
+  <div class="product-right">
+    <?php echo nl2br_html($row['description']); ?>
+  </div>
 </div>
 
-<div style="clear: both;"></div>
+<div class="product-share">
+  SHARE PRODUCT:
+  <a href="https://facebook.com/sharer/sharer.php?u=<?php echo $ShareLink; ?>"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://twitter.com/intent/tweet?url=<?php echo $ShareLink; ?>&text=<?php echo $ShareText; ?>"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+</div>
 
 <?php include "footer.php"; ?>
