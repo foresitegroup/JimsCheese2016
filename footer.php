@@ -45,7 +45,8 @@
     </div>
   </div>
   <?php } ?>
-
+  
+  <?php if (!isset($wtb)) { ?>
   <div class="footer-where">
     <div class="site-width">
       <form action="where-to-buy.php?thankyou" method="post">
@@ -68,6 +69,7 @@
         </div>
       </form>
     </div>
+    <?php } ?>
   </div>
 
   <div class="jc-footer">

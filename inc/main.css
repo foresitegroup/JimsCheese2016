@@ -987,6 +987,111 @@ html {
   border: 2px solid #FFFFFF;
 }
 
+.footer-where.wtb {
+  margin: 0 0 18px;
+  background: #593E02;
+  color: #FBB042;
+}
+
+.footer-where.wtb INPUT[type="submit"] {
+  background: #FBB042;
+}
+
+.footer-where.wtb INPUT[type="submit"]:hover {
+  background: #A35E0A;
+}
+
+.where-to-buy {
+  margin: 5em auto;
+  width: 87.5%;
+  position: relative;
+}
+
+.where-to-buy-left,
+.gm-style {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 23%;
+  height: 100%;
+  overflow: hidden;
+  color: #252525;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.3em;
+}
+
+.gm-style {
+  position: static;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+}
+
+.where-to-buy-left H2 {
+  color: #593E02;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1em;
+  margin: 0;
+}
+
+.where-to-buy-left .location {
+  margin-top: 3.5em;
+}
+
+.where-to-buy-left .location H3,
+.gm-style .gm-style-iw H3 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1em;
+  margin: 0 0 0.3em;
+  text-transform: uppercase;
+}
+
+.gm-style .gm-style-iw H3 {
+  margin-top: 0.5em;
+}
+
+.where-to-buy-left .location .directions,
+.gm-style .gm-style-iw .directions {
+  margin-top: 1.5em;
+  font-weight: 700;
+  font-size: 80%;
+}
+
+.where-to-buy-left .location .directions A:link,
+.where-to-buy-left .location .directions A:visited,
+.gm-style .gm-style-iw .directions A:link,
+.gm-style .gm-style-iw .directions A:visited {
+  color: #FBB042;
+  text-decoration: underline;
+  margin-left: 1em;
+}
+
+.where-to-buy-left .location .directions A:hover,
+.where-to-buy-left .location .directions A:active,
+.gm-style .gm-style-iw .directions A:hover,
+.gm-style .gm-style-iw .directions A:active {
+  color: #593E02;
+  text-decoration: underline;
+}
+
+#map-canvas {
+  float: right;
+  width: 74%;
+}
+
+#map-canvas:before {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}
+
+
 
 
 
@@ -994,7 +1099,10 @@ html {
 
 
 @media only screen and (max-width: 1024px) {
-  .site-width { width: 96%; }
+  .site-width,
+  .where-to-buy {
+    width: 96%;
+  }
 
   .modal A.close-modal {
     right: 2%;
@@ -1008,6 +1116,16 @@ html {
   .products.products-single A {
     width: 25%;
     margin: 0 2.8% 90px;
+  }
+
+  .product {
+    padding: 5em 0 3em;
+    margin: 0 auto;
+    width: 96%;
+  }
+
+  .product-right {
+    width: 48%;
   }
 }
 
@@ -1128,6 +1246,14 @@ html {
     width: 40%;
     margin: 0 3% 90px;
   }
+
+  .where-to-buy-left {
+    width: 33%;
+  }
+
+  #map-canvas {
+    width: 64%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1208,8 +1334,7 @@ html {
     display: none;
   }
 
-  .products.products-single,
-  .product {
+  .products.products-single {
     float: none;
     width: 100%;
   }
@@ -1218,6 +1343,28 @@ html {
   .products.products-single A {
     width: 43.5%;
     margin: 0 3% 75px;
+  }
+
+  .product-left,
+  .product-right {
+    float: none;
+    width: 100%;
+  }
+
+  .product-left {
+    margin: 0 0 2em 0;
+  }
+
+  .where-to-buy-left,
+  #map-canvas {
+    float: none;
+    width: 100%;
+  }
+
+  .where-to-buy-left {
+    position: static;
+    overflow: auto;
+    margin-top: 2em;
   }
 }
 
