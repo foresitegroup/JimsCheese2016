@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 $PageTitle = "Become A Retailer";
 include "header.php";
 ?>
@@ -34,7 +36,7 @@ var google_conversion_value = 0;
   Becoming a member of the Jim's Cheese retail family is more than just profitable. Our quality line cheeses, cheese cutouts, artisan cheeses and deli cheeses will make your cooler the destination for quality Wisconsin products. Jim's Cheese and the products we represent will make a great addition to your store's product line.<br>
   <br>
 
-  <span style="font-size: 16px;">For more information please fill in the following form and a Jim's Cheese representative will contact you.</span>
+  <div style="font-size: 16px; line-height: 1.4em;">For more information please fill in the following form and a Jim's Cheese representative will contact you.</div>
 </div>
 
 <script type="text/javascript">
@@ -138,7 +140,7 @@ unset($_SESSION['feedback']);
       <label for="c6">Organic Foods</label>
     </div>
 
-    <div class="one-fourth">
+    <div class="one-fourth third">
       <input type="checkbox" name="store[]" value="Kiosk in Mall" id="c7">
       <label for="c7">Kiosk in Mall</label><br>
       <input type="checkbox" name="store[]" value="Kiosk in Market" id="c8">
