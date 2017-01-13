@@ -42,7 +42,7 @@ var google_conversion_value = 0;
 <script type="text/javascript">
   $(document).ready(function() {
     var form = $('#retailer-form');
-    var formMessages = $('#retailer-form-messages');
+    var formMessages = $('#form-messages');
     $(form).submit(function(event) {
       event.preventDefault();
       
@@ -95,7 +95,7 @@ unset($_SESSION['feedback']);
 ?>
 </noscript>
 
-<form action="form-retailer.php" method="POST" id="retailer-form">
+<form action="form-retailer.php" method="POST" id="retailer-form" class="dark-form">
   <div>
     <div class="required">* Required</div>
 
