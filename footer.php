@@ -76,9 +76,9 @@
     <div class="site-width">
       <div class="left">
         <a href="products.php">PRODUCTS</a>
-        <a href="#">CUSTOMER SERVICE</a>
-        <a href="#">CUSTOMER LOGIN</a>
-        <a href="#">MONTHLY SPECIALS</a>
+        <a href="customer-service.php">CUSTOMER SERVICE</a>
+        <a href="resellers.php">CUSTOMER LOGIN</a>
+        <a href="pdf/resellers/<?php echo $MonthlySpecials; ?>.pdf">MONTHLY SPECIALS</a>
         <a href="where-to-buy.php">WHERE TO BUY</a>
       </div>
 

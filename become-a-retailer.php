@@ -163,7 +163,7 @@ unset($_SESSION['feedback']);
     <input type="hidden" name="ip" value="<?php echo $ip; ?>">
     <input type="hidden" name="timestamp" value="<?php echo $timestamp; ?>">
 
-    <div id="retailer-form-messages"><?php echo $feedback; ?></div>
+    <div id="form-messages"><?php echo $feedback; ?></div>
 
     <input type="submit" name="submit" value="SUBMIT">
   </div>

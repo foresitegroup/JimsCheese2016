@@ -1572,6 +1572,275 @@ A.arrow-link:after {
   height: 0.7em;
 }
 
+.customer-service {
+  padding: 3em 0;
+  color: #363636;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 2em;
+  text-align: center;
+}
+
+.customer-service DIV {
+  font-size: 20px;
+  line-height: 1.3em;
+}
+
+.consultants {
+  padding: 4em 0 0;
+  background: #252525;
+}
+
+.consultants .site-width {
+  width: 1100px;
+}
+
+.consultants H2 {
+  margin: 0 0 3em;
+  color: #FBB042;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1em;
+  text-align: center;
+}
+
+.consultants .one-third {
+  float: left;
+  width: 32.09%;
+  margin: 0 1.86% 8em 0;
+  color: #FBB042;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.4em;
+}
+
+.consultants .one-third:nth-of-type(3n+3) {
+  margin-right: 0;
+}
+
+.consultants .consultant-image {
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+}
+
+.consultants .consultant-image:after,
+.consultants .bar:after {
+  content: "";
+  display: block;
+  padding-top: 110%;
+}
+
+.consultants .one-third H3 {
+  margin: 0.6em 0 0.4em;
+  color: #EBEBEB;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+.consultants .one-third A:link,
+.consultants .one-third A:visited {
+  color: #FBB042;
+}
+
+.consultants .one-third A:hover,
+.consultants .one-third A:active {
+  color: #EBEBEB;
+}
+
+.consultants .bar {
+  border: 8px solid #363636;
+  box-sizing: border-box;
+  position: relative;
+  outline-bottom: 1px solid red;
+}
+
+.consultants .bar:after {
+  padding-top: calc(110% + 1px);
+}
+
+.consultants .bar .bar-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+  text-align: center;
+  color: #FBB042;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.4em;
+}
+
+.consultants .bar A:link,
+.consultants .bar A:visited {
+  color: #FBB042;
+  text-decoration: underline;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1em;
+}
+
+.consultants .bar A:hover,
+.consultants .bar A:active {
+  color: #EBEBEB;
+  text-decoration: underline;
+}
+
+.employment-intro {
+  padding: 3em 0;
+  background: #3D2B02;
+  color: #FFFFFF;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 2em;
+  text-align: center;
+}
+
+.employment {
+  padding: 3em 0;
+  color: #363636;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4em;
+}
+
+.positions {
+  width: 90%;
+  margin: 0 auto 3em;
+  padding: 6em 0;
+  background: #FBB042;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.7em;
+}
+
+.positions H2 {
+  margin: 0 0 1.4em;
+  color: #3D2B02;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.positions H3 {
+  margin: 0 0 0.3em;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+.positions A:link,
+.positions A:visited {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.positions A:hover,
+.positions A:active {
+  color: #B7262F;
+  text-decoration: underline;
+}
+
+.resellers {
+  padding: 4em 0;
+  color: #252525;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+.resellers .login {
+  padding: 7em 0;
+  text-align: center;
+}
+
+.resellers H1 {
+  margin: 0.5em 0 1em;
+  color: #FBB042;
+  font-weight: bold;
+  font-size: 62px;
+  line-height: 1em;
+}
+
+.resellers UL {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.resellers UL LI {
+  padding: 0.75em 0;
+  font-size: 14px;
+}
+
+.resellers FORM {
+  width: 60%;
+  margin: 2em auto 0;
+  text-align: center;
+}
+
+.resellers.login FORM {
+  width: 100%;
+  margin: 4em 0 5em;
+}
+
+.resellers INPUT[type="text"],
+.resellers INPUT[type="email"],
+.resellers INPUT[type="password"] {
+  background: #252525;
+  color: #FBB042;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.resellers.login INPUT[type="password"] {
+  width: 40%;
+}
+
+.resellers INPUT::-webkit-input-placeholder { color: #FBB042; uppercase; opacity: 1; }
+.resellers INPUT:-moz-placeholder { color: #FBB042; uppercase; opacity: 1; } /* FF 4-18 */
+.resellers INPUT::-moz-placeholder { color: #FBB042; uppercase; opacity: 1; } /* FF 19+ */
+.resellers INPUT:-ms-input-placeholder { color: #FBB042; uppercase; opacity: 1; } /* IE 10+ */
+
+.resellers INPUT:focus::-webkit-input-placeholder { color: transparent; }
+.resellers INPUT:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
+.resellers INPUT:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
+.resellers INPUT:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
+
+.resellers INPUT[type="submit"] {
+  margin-left: 1%;
+  border: 6px solid #3D2B02;
+  padding: 0.45em 2em;
+  background: transparent;
+  color: #3D2B02;
+}
+
+.resellers INPUT[type="submit"]:hover {
+  border-color: #FBB042;
+  color: #FBB042;
+}
+
+/*.resellers {
+  padding: 4em 0;
+  color: #252525;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 700;
+  line-height: 1.5em;
+}*/
+
 
 @media only screen and (max-width: 1480px) {
   .artisan-cheeses {
@@ -1582,6 +1851,12 @@ A.arrow-link:after {
 @media only screen and (max-width: 1204px) {
   .artisan-cheeses-intro .site-width,
   .about-intro .site-width {
+    width: 96%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .consultants .site-width {
     width: 96%;
   }
 }
@@ -1932,6 +2207,24 @@ A.arrow-link:after {
     visibility: hidden;
     height: 0.5em;
   }
+  
+  .consultants .one-third,
+  .consultants .one-third:nth-of-type(3n+3) {
+    width: 48%;
+    margin-right: 4%;
+  }
+
+  .consultants .one-third:nth-of-type(2n+2) {
+    margin-right: 0;
+  }
+
+  .resellers FORM {
+    width: 100%;
+  }
+
+  .resellers.login INPUT[type="password"] {
+    width: 60%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -2085,6 +2378,14 @@ A.arrow-link:after {
 
   .dark-form .radio INPUT[type="radio"] + LABEL:first-of-type {
     margin-left: 0;
+  }
+
+  .consultants .one-third,
+  .consultants .one-third:nth-of-type(3n+3),
+  .consultants .one-third:nth-of-type(2n+2) {
+    float: none;
+    width: 100%;
+    margin-right: 0;
   }
 }
 

@@ -31,6 +31,8 @@
     <ul>
       <li><a href="contact.php">Contact</a></li>
       <li><a href="become-a-retailer.php">Become A Retailer</a></li>
+      <li><a href="customer-service.php">Customer Service</a></li>
+      <li><a href="employment.php">Employment</a></li>
     </ul>
   </li>
   <li class="search"><a href="#search"><i class="fa fa-search" aria-hidden="true"></i></a></li>

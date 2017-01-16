@@ -1,3 +1,14 @@
+<?php
+$MonthlySpecials = "December_2016_Specials";
+$MonthlySpecialsTitle = "December 2016 Specials";
+
+function email($address, $name="") {
+  $email = "";
+  for ($i = 0; $i < strlen($address); $i++) { $email .= (rand(0, 1) == 0) ? "&#" . ord(substr($address, $i)) . ";" : substr($address, $i, 1); }
+  if ($name == "") $name = $email;
+  echo "<a href=\"&#109;&#97;&#105;&#108;&#116;&#111;&#58;$email\">$name</a>";
+}
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -51,9 +62,9 @@
 
     <div class="top-menu">
       <div class="site-width">
-        <a href="#">Contact</a>
-        <a href="#">Monthly Specials</a>
-        <a href="#">Customer Login <i class="fa fa-user" aria-hidden="true"></i></a>
+        <a href="contact.php">Contact</a>
+        <a href="pdf/resellers/<?php echo $MonthlySpecials; ?>.pdf">Monthly Specials</a>
+        <a href="resellers.php">Customer Login <i class="fa fa-user" aria-hidden="true"></i></a>
       </div>
     </div>
 
