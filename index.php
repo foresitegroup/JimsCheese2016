@@ -1,4 +1,5 @@
 <?php
+$lfa = "yes";
 include "header.php";
 ?>
 

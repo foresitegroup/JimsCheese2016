@@ -1,6 +1,8 @@
 <?php
-$MonthlySpecials = "December_2016_Specials";
-$MonthlySpecialsTitle = "December 2016 Specials";
+$GLOBALS['MonthlySpecials'] = "December_2016_Specials";
+$GLOBALS['MonthlySpecialsTitle'] = "December 2016 Specials";
+
+if (!isset($TopDir)) $TopDir = "";
 
 function email($address, $name="") {
   $email = "";
@@ -16,8 +18,8 @@ function email($address, $name="") {
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
     <title>Jim's Cheese<?php if (isset($PageTitle)) echo " | " . $PageTitle; ?></title>
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $TopDir; ?>images/favicon.ico">
+    <link rel="apple-touch-icon" href="<?php echo $TopDir; ?>images/apple-touch-icon.png">
 
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -27,11 +29,11 @@ function email($address, $name="") {
     <meta name="viewport" content="width=device-width">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Roboto+Slab:700|Work+Sans:600,700,800" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="inc/main.css?<?php echo filemtime('inc/main.css'); ?>">
+    <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/main.css?<?php if ($TopDir == "") echo filemtime('inc/main.css'); ?>">
 
-    <script type="text/javascript" src="inc/jquery-1.12.4.min.js"></script>
-    <script type="text/javascript" src="inc/jquery.waypoints.min.js"></script>
-    <script type="text/javascript" src="inc/jquery.modal.min.js"></script>
+    <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery.modal.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
         $("a[href^='http'], a[href$='.pdf']").not("[href*='" + window.location.host + "']").attr('target','_blank');
@@ -50,7 +52,7 @@ function email($address, $name="") {
   <body>
 
   <div id="search" style="display: none;">
-    <form class="site-width" method="POST" action="search.php">
+    <form class="site-width" method="POST" action="<?php echo $TopDir; ?>search.php">
       <div>
         <input type="text" name="search" placeholder="SEARCH...">
       </div>
@@ -58,13 +60,13 @@ function email($address, $name="") {
   </div>
 
   <div class="jc-header">
-    <a href="." id="logo"><img src="images/logo.png" alt=""></a>
+    <a href="<?php echo $TopDir; ?>." id="logo"><img src="<?php echo $TopDir; ?>images/logo.png" alt=""></a>
 
     <div class="top-menu">
       <div class="site-width">
-        <a href="contact.php">Contact</a>
-        <a href="pdf/resellers/<?php echo $MonthlySpecials; ?>.pdf">Monthly Specials</a>
-        <a href="resellers.php">Customer Login <i class="fa fa-user" aria-hidden="true"></i></a>
+        <a href="<?php echo $TopDir; ?>contact.php">Contact</a>
+        <a href="<?php echo $TopDir; ?>pdf/resellers/<?php echo $GLOBALS['MonthlySpecials']; ?>.pdf">Monthly Specials</a>
+        <a href="<?php echo $TopDir; ?>resellers.php">Customer Login <i class="fa fa-user" aria-hidden="true"></i></a>
       </div>
     </div>
 
@@ -78,7 +80,7 @@ function email($address, $name="") {
   <div class="menu-holder">
     <div class="scrolling-menu">
       <div class="site-width">
-        <a href="." id="logo-scrolling"><img src="images/logo-scrolling.png" alt=""></a>
+        <a href="." id="logo-scrolling"><img src="<?php echo $TopDir; ?>images/logo-scrolling.png" alt=""></a>
         <input type="checkbox" id="show-menu" role="button">
         <label for="show-menu" id="menu-toggle"></label>
         <div><?php include "menu.php" ?></div>

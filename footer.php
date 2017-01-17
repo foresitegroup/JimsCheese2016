@@ -1,27 +1,27 @@
 
   <div class="products-band cf">
-    <div style="background-image: url(images/home-product-cutouts.jpg);">
+    <div style="background-image: url(<?php echo $TopDir; ?>images/home-product-cutouts.jpg);">
       <a href="products.php?8">
         <div class="title">CHEESE CUTOUTS</div>
         <div class="view-more">VIEW MORE</div>
       </a>
     </div>
 
-    <div style="background-image: url(images/home-product-retail-cuts.jpg);">
+    <div style="background-image: url(<?php echo $TopDir; ?>images/home-product-retail-cuts.jpg);">
       <a href="products.php?7">
         <div class="title">RETAIL CUTS</div>
         <div class="view-more">VIEW MORE</div>
       </a>
     </div>
 
-    <div style="background-image: url(images/home-product-block.jpg);">
+    <div style="background-image: url(<?php echo $TopDir; ?>images/home-product-block.jpg);">
       <a href="products.php?5">
         <div class="title">BLOCK, LOAF, HORNS &amp; ROUNDS</div>
         <div class="view-more">VIEW MORE</div>
       </a>
     </div>
 
-    <div style="background-image: url(images/home-product-gift.jpg);">
+    <div style="background-image: url(<?php echo $TopDir; ?>images/home-product-gift.jpg);">
       <a href="products.php?11">
         <div class="title">GIFT BASKETS &amp; COMPONENTS</div>
         <div class="view-more">VIEW MORE</div>
@@ -29,18 +29,18 @@
     </div>
   </div>
   
-  <?php if (!isset($PageTitle)) { ?>
+  <?php if (isset($lfa)) { ?>
   <div class="home-artisan">
     <div class="site-width">
       <div class="left">
-        <img src="images/lake-forest-artisan.png" alt="">
+        <img src="<?php echo $TopDir; ?>images/lake-forest-artisan.png" alt="">
       </div>
 
       <div class="right">
         Lake Forest Artisan Cheese represents a family of farmstead, single herd cheeses crafted by Wisconsin artisan cheesemakers. Each cheesemaker has a unique offering of flavors, styles and cultural origin that appeal to cheese enthusiasts throughout the country.<br>
         <br>
 
-        <a href="#" class="arrow-link">ARTISAN CHEESES</a>
+        <a href="<?php echo $TopDir; ?>artisan-cheeses.php" class="arrow-link">ARTISAN CHEESES</a>
       </div>
     </div>
   </div>
@@ -49,7 +49,7 @@
   <?php if (!isset($wtb)) { ?>
   <div class="footer-where">
     <div class="site-width">
-      <form action="where-to-buy.php?thankyou" method="post">
+      <form action="<?php echo $TopDir; ?>where-to-buy.php?thankyou" method="post">
         <div>
           <span>WHERE CAN I BUY?</span>
 
@@ -75,11 +75,11 @@
   <div class="jc-footer">
     <div class="site-width">
       <div class="left">
-        <a href="products.php">PRODUCTS</a>
-        <a href="customer-service.php">CUSTOMER SERVICE</a>
-        <a href="resellers.php">CUSTOMER LOGIN</a>
-        <a href="pdf/resellers/<?php echo $MonthlySpecials; ?>.pdf">MONTHLY SPECIALS</a>
-        <a href="where-to-buy.php">WHERE TO BUY</a>
+        <a href="<?php echo $TopDir; ?>products.php">PRODUCTS</a>
+        <a href="<?php echo $TopDir; ?>customer-service.php">CUSTOMER SERVICE</a>
+        <a href="<?php echo $TopDir; ?>resellers.php">CUSTOMER LOGIN</a>
+        <a href="<?php echo $TopDir; ?>pdf/resellers/<?php echo $GLOBALS['MonthlySpecials']; ?>.pdf">MONTHLY SPECIALS</a>
+        <a href="<?php echo $TopDir; ?>where-to-buy.php">WHERE TO BUY</a>
       </div>
 
       <div class="right">
@@ -87,7 +87,7 @@
         <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
         <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 
-        <a href="http://www.eatwisconsincheese.com"><img src="images/wisconsin-cheese-logo.png" alt="Wisconsin Cheese"></a>
+        <a href="http://www.eatwisconsincheese.com"><img src="<?php echo $TopDir; ?>images/wisconsin-cheese-logo.png" alt="Wisconsin Cheese"></a>
       </div>
     </div>
   </div>

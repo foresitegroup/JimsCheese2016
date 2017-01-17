@@ -41,7 +41,7 @@ include "header.php";
     <?php } ?>
     
     <a href="pdf/Jim's_Cheese_Brochure.pdf">Brochure</a><br>
-    <a href="pdf/resellers/<?php echo $MonthlySpecials; ?>.pdf"><?php echo $MonthlySpecialsTitle; ?></a>
+    <a href="pdf/resellers/<?php echo $GLOBALS['MonthlySpecials']; ?>.pdf"><?php echo $GLOBALS['MonthlySpecialsTitle']; ?></a>
   </div><br>
   <br>
 

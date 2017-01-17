@@ -222,6 +222,24 @@ html {
 }
 /* END modal css */
 
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+ 
+.video iframe,
+.video object,
+.video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .site-width {
   width: 1000px;
   margin: 0 auto;
@@ -1833,13 +1851,203 @@ A.arrow-link:after {
   color: #FBB042;
 }
 
-/*.resellers {
-  padding: 4em 0;
-  color: #252525;
+.banner-blog-index,
+.banner-blog-single {
+  text-transform: uppercase;
+  background-image: url(../images/blog-banner.jpg);
+}
+
+.banner-blog-index H1 {
+  font-size: 62px;
+}
+
+.banner-blog-single {
+  height: 500px;
+  color: #FBB042;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+
+.banner-blog-single.overlay:before {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.banner-blog-single H1 {
+  font-size: 72px;
+  color: #FFFFFF;
+  margin-bottom: 1em;
+}
+
+.blog-content-index {
+  border-top: 1px solid #E1E1E1;
+  padding: 6em 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 2em;
+}
+
+.blog-content-index:first-of-type {
+  border-top: 0;
+}
+
+.blog-content-index .site-width {
+  width: 800px;
+}
+
+.blog-content-index H2 {
+  margin: 0.5em 0;
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 700;
-  line-height: 1.5em;
-}*/
+  font-size: 40px;
+  line-height: 1.1em;
+  text-transform: uppercase;
+}
+
+.blog-content-index .date {
+  color: #FBB042;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.blog-content-index A.readmore:link,
+.blog-content-index A.readmore:visited {
+  display: inline-block;
+  margin-top: 5em;
+  border: 5px solid #FBB042;
+  border-radius: 2px;
+  padding: 0.7em 1.4em;
+  color: #252525;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 1em;
+}
+
+.blog-content-index A.readmore:hover,
+.blog-content-index A.readmore:active {
+  border-color: #B7262F;
+  color: #B7262F;
+}
+
+.blog-content {
+  padding: 5em 0;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.8em;
+}
+
+.blog-content-index IMG,
+.blog-content IMG {
+  max-width: 100%;
+  height: auto;
+}
+
+.blog-content-index .alignleft,
+.blog-content .alignleft {
+  float: left;
+  margin-right: 2%;
+  max-width: 40%;
+  height: auto;
+}
+
+.blog-content-index .alignright,
+.blog-content .alignright {
+  float: right;
+  margin-left: 2%;
+  max-width: 40%;
+  height: auto;
+}
+
+.blog-content-index .aligncenter,
+.blog-content .aligncenter {
+  margin: 1.5em auto;
+  max-width: 50%;
+  height: auto;
+  display: block;
+}
+
+.blog-content-index .alignnone,
+.blog-content .alignnone {
+  margin: 1.5em auto;
+  display: block;
+}
+
+.wp-caption-text {
+  margin: 0;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.3em;
+}
+
+.blog-metadata {
+  margin-top: 6em;
+  font-size: 10px;
+  line-height: 1.4em;
+}
+
+.blog-metadata A:link,
+.blog-metadata A:visited {
+  color: #FBB042;
+}
+
+.blog-metadata A:hover,
+.blog-metadata A:active {
+  color: #B7262F;
+}
+
+.navigation {
+  margin-top: 6em;
+}
+
+.navigation:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.blog-index-nav .navigation {
+  margin: 3em 0;
+}
+
+.nav-links A:link,
+.nav-links A:visited {
+  color: #502B00;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1em;
+}
+
+.nav-links A:hover,
+.nav-links A:active {
+  color: #FBB042;
+}
+
+.nav-links .prev {
+  float: left;
+}
+
+.nav-links .prev:before {
+  font-family: "FontAwesome";
+  content: "\f177";
+  color: #FBB042;
+  margin-right: 0.4em;
+}
+
+.nav-links .next {
+  float: right;
+}
+
+.nav-links .next:after {
+  font-family: "FontAwesome";
+  content: "\f178";
+  color: #FBB042;
+  margin-left: 0.4em;
+}
 
 
 @media only screen and (max-width: 1480px) {
@@ -2040,6 +2248,10 @@ A.arrow-link:after {
 
   .artisan-cheese:nth-of-type(3) {
     border-top: 1px solid #E1E1E1;
+  }
+
+  .blog-content-index .site-width {
+    width: 96%;
   }
 }
 
