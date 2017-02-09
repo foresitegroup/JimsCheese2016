@@ -23,12 +23,9 @@ include "header.php";
   <div style="background-image: url(images/home-banner2.jpg);">
     <div class="overlay">
       <div class="site-width">
-        <h2>This is the second banner slide.</h2>
+        <h4>Jim's Cheese is the &ldquo;Cheese Cutout Capitol of the World&rdquo; Featuring over 250 Cutouts, Made to Order Logos, Mascots &amp; Themes!</h4>
 
-        We need to put some content here.<br>
-        <br>
-
-        <a href="#" class="arrow-link">SOME LINK</a>
+        <a href="products.php?8" class="arrow-link">VIEW CUTOUTS</a>
       </div>
     </div>
   </div>
@@ -36,12 +33,9 @@ include "header.php";
   <div style="background-image: url(images/home-banner3.jpg);">
     <div class="overlay">
       <div class="site-width">
-        <h2>The third slide is quite nice.</h2>
+        <h3>We carry the largest selection of Wisconsin Artisan &amp; Farmstead Cheeses</h3>
 
-        It needs some content as well.<br>
-        <br>
-
-        <a href="#" class="arrow-link">ANOTHER LINK</a>
+        <a href="artisan-cheeses.php" class="arrow-link">ARTISAN CHEESES</a>
       </div>
     </div>
   </div>
@@ -49,12 +43,9 @@ include "header.php";
   <div style="background-image: url(images/home-banner4.jpg);">
     <div class="overlay">
       <div class="site-width">
-        <h2>And here we all are at the fourth and final slide.</h2>
+        <h3>We carry the largest variety of sausages, spreads, sauces &amp; snack products</h3>
 
-        But we could add more slides if we wanted to.<br>
-        <br>
-
-        <a href="#" class="arrow-link">YET ANOTHER LINK</a>
+        <a href="products.php" class="arrow-link">VIEW MORE</a>
       </div>
     </div>
   </div>

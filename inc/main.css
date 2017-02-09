@@ -551,8 +551,11 @@ A.arrow-link:after {
 }
 
 .cycle-slideshow .overlay {
-  background: rgba(0, 0, 0, .3);
   height: inherit;
+}
+
+.cycle-slideshow .overlay:before {
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .cycle-slideshow .site-width {
@@ -573,6 +576,18 @@ A.arrow-link:after {
 .cycle-slideshow H2 {
   margin: 0 0 0.6em;
   font-size: 55px;
+  line-height: 1.2em;
+}
+
+.cycle-slideshow H3 {
+  margin: 0 0 0.5em;
+  font-size: 52px;
+  line-height: 1.2em;
+}
+
+.cycle-slideshow H4 {
+  margin: 0 0 0.5em;
+  font-size: 48px;
   line-height: 1.2em;
 }
 
@@ -656,6 +671,10 @@ A.arrow-link:after {
   right: 0;
   left: 0;
   color: #FFFFFF;
+}
+
+.products-band A {
+  background: rgba(0, 48, 73, .2);
 }
 
 .products-band A:hover {
