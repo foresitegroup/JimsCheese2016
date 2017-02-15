@@ -24,6 +24,9 @@ include "header.php";
   <div><img src="images/about-slider2.jpg" alt=""></div>
   <div><img src="images/about-slider3.jpg" alt=""></div>
   <div><img src="images/about-slider4.jpg" alt=""></div>
+  <div><img src="images/about-slider5.jpg" alt=""></div>
+  <div><img src="images/about-slider6.jpg" alt=""></div>
+  <div><img src="images/about-slider7.jpg" alt=""></div>
 </div>
 
 <div class="site-width about-content">
