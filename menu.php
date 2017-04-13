@@ -18,7 +18,7 @@
   <li>
     <a href="<?php echo $TopDir; ?>artisan-cheeses.php">Artisan Cheeses</a>
     <ul>
-      <li><a href="<?php echo $TopDir; ?>products.php?1">Lake Forest Artisan</a></li>
+      <li><a href="<?php echo $TopDir; ?>products.php?1">Artisan and Farmstead Cheeses</a></li>
     </ul>
   </li>
   <li><a href="<?php echo $TopDir; ?>where-to-buy.php">Where to Buy</a></li>

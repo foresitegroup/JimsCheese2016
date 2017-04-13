@@ -12,9 +12,9 @@ switch ($_REQUEST['a']) {
                   category,
                   publish
                   ) VALUES (
-                  '" . $mysqli->real_escape_string($_POST['name']) . "',
-                  '" . $mysqli->real_escape_string($_POST['image']) . "',
-                  '" . $mysqli->real_escape_string($_POST['description']) . "',
+                  '" . $_POST['name'] . "',
+                  '" . $_POST['image'] . "',
+                  '" . $_POST['description'] . "',
                   '" . $_POST['category'] . "',
                   '" . $_POST['publish'] . "'
                   )");
@@ -22,9 +22,9 @@ switch ($_REQUEST['a']) {
     break;
   case "edit":
     $mysqli->query("UPDATE products SET
-                  name = '" . $mysqli->real_escape_string($_POST['name']) . "',
-                  image = '" . $mysqli->real_escape_string($_POST['image']) . "',
-                  description = '" . $mysqli->real_escape_string($_POST['description']) . "',
+                  name = '" . $_POST['name'] . "',
+                  image = '" . $_POST['image'] . "',
+                  description = '" . $_POST['description'] . "',
                   category = '" . $_POST['category'] . "',
                   publish = '" . $_POST['publish'] . "'
                   WHERE id = '" . $_POST['id'] . "'");

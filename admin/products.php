@@ -91,6 +91,22 @@ include "header.php";
 
 
 <script type="text/javascript">
+  $(document).on("click", ".pub", function() {
+    event.preventDefault();
+
+    var orgPubState = $(this).attr('title');
+    var newPubState = ($(this).attr('title') == "on") ? "off" : "on";
+
+    $.ajax({
+      data: "a=toggle&id="+$(this).attr('id')+"&pubstate="+newPubState,
+      type: 'POST',
+      url: 'products-db.php'
+    });
+
+    $(this).children().removeClass('fa-toggle-'+orgPubState).addClass('fa-toggle-'+newPubState);
+    $(this).attr("title", newPubState);
+  });
+
   $(document).on("click", ".select-image", function() {
     event.preventDefault();
     $("#image").val(this.title);

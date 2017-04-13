@@ -8,16 +8,16 @@ switch ($_REQUEST['a']) {
                   image,
                   publish
                   ) VALUES(
-                  '" . $mysqli->real_escape_string($_POST['name']) . "',
-                  '" . $mysqli->real_escape_string($_POST['image']) . "',
+                  '" . $_POST['name'] . "',
+                  '" . $_POST['image'] . "',
                   '" . $_POST['publish'] . "'
                   )");
     break;
   case "edit":
     $mysqli->query("UPDATE products_category SET
-                  name = '" . $mysqli->real_escape_string($_POST['name']) . "',
-                  image = '" . $mysqli->real_escape_string($_POST['image']) . "',
-                  publish = '" . $mysqli->real_escape_string($_POST['publish']) . "'
+                  name = '" . $_POST['name'] . "',
+                  image = '" . $_POST['image'] . "',
+                  publish = '" . $_POST['publish'] . "'
                   WHERE id = '" . $_POST['id'] . "'");
     break;
   case "delete":

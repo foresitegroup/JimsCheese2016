@@ -30,20 +30,6 @@ include "header.php";
 
 <div class="artisan-cheeses" data-masonry='{ "itemSelector": ".artisan-cheese", "percentPosition": "true" }'>
   <div class="artisan-cheese">
-    <div class="ac-image" style="background-image: url(images/products/burnett-dairy.jpg)"></div>
-
-    <h3>BURNETT DAIRY COOPERATIVE</h3>
-
-    The Burnett Dairy Co-op was first established in 1896 with the Wood River Creamery. Quickly we became famous for our award-winning butter. Our cheesemaking operation began in 1966, still supported by the area dairy producers. In 1988, the Burnett Dairy's Cheese Factory won the distinction of World Champion Cheesemaker with an entry of our now famous String Cheese. Our present production is 90,000 lbs. of cheese daily. We now offer many types of Fancy Brand, Burnett and Wood River Artisan cheeses. Featured in March 2013.<br>
-    <br>
-
-    <a href="http://www.burnettdairy.com">www.burnettdairy.com</a><br>
-    <br>
-
-    <a href="product.php?1" class="select-products">SELECT PRODUCTS</a>
-  </div>
-
-  <div class="artisan-cheese">
     <div class="ac-image" style="background-image: url(images/products/1421.jpg)"></div>
 
     <h3>CARR VALLEY</h3>
@@ -55,20 +41,6 @@ include "header.php";
     <br>
 
     <a href="product.php?2" class="select-products">SELECT PRODUCTS</a>
-  </div>
-
-  <div class="artisan-cheese">
-    <div class="ac-image" style="background-image: url(images/products/cedar-grove.jpg)"></div>
-
-    <h3>CEDAR GROVE CHEESE</h3>
-
-    Cedar Grove Cheese can trace its beginnings to 1878. Today, this family-owned operation produces a variety of organic, specialty cheeses, and cheese curds. We're a medium-sized company with the flexibility to meet our customers' special requirements for Cheddar, Monterey Jack, Colby, Farmers, Butterkase, Havarti, sheep and goat cheese. We also produce flavored, grass-based, and specialty cheeses. All our cheeses use vegetarian, GMO-free ingredients including rBGH-free milk.<br>
-    <br>
-
-    <a href="http://www.cedargrovecheese.com">www.cedargrovecheese.com</a><br>
-    <br>
-
-    <a href="product.php?3" class="select-products">SELECT PRODUCTS</a>
   </div>
 
   <div class="artisan-cheese">
@@ -181,6 +153,17 @@ include "header.php";
   </div>
 
   <div class="artisan-cheese">
+    <div class="ac-image" style="background-image: url(images/products/laclare-farms.jpg)"></div>
+
+    <h3>LACLARE FARMS</h3>
+
+    Larry and Clara Hedrich, the La &amp; Clare part of LaClare, had a dream to raise their now five grown children on a farm. They purchased a 22 acre farm, in 1978, on the outskirts of Chilton where they began their dairy goat operation and raised their five children. Within the last year LaClare Farms has had the great honor of being the first runner up, Best of Show with its Standard Market Cave Aged Chandoka. LaClare Farms makes this Chandoka and Standard Market aged it in their caves.<br>
+    <br>
+
+    <a href="http://www.laclarefarm.com">www.laclarefarm.com</a>
+  </div>
+
+  <div class="artisan-cheese">
     <div class="ac-image" style="background-image: url(images/products/Maple-leaf-cheese.jpg)"></div>
 
     <h3>MAPLE LEAF CHEESE</h3>
@@ -229,20 +212,6 @@ include "header.php";
   </div>
 
   <div class="artisan-cheese">
-    <div class="ac-image" style="background-image: url(images/products/Otter-creek.jpg)"></div>
-
-    <h3>OTTER CREEK ORGANIC FARM</h3>
-
-    The 2008 Organic Farm of the Year, Otter Creek Organic Farm offers seasonal, raw milk cheddar cheese in block or beautiful retail packaging. Otter Creek also produces the 2007 ACS and US Championship Cheese award-winning Pesto Cheddar. These cheeses are made from a single farm with a herd of less than 200 cows, so this is inherently a unique product. Made by a Master Cheesemaker, unpasteurized, and naturally aged at least six months (frequently over a year), the cheeses are rich, full-flavored, and unusually creamy. Otter Creek's organic fields are the pastures where 180 farmstead Holsteins graze, and the milk these cows produce is used to make seasonal cheddars. These cheddars taste like the seasons—they are made locally with pride by the Master Cheesemaker at prize-winning Cedar Grove Cheese. Each season's cheddar has a unique flavor and fat content&mdash;they are all very different. Otter Creek's cheeses also include a special pesto cheddar.<br>
-    <br>
-
-    <a href="http://www.ottercreekorganicfarm.com">www.ottercreekorganicfarm.com</a><br>
-    <br>
-
-    <a href="product.php?15" class="select-products">SELECT PRODUCTS</a>
-  </div>
-
-  <div class="artisan-cheese">
     <div class="ac-image" style="background-image: url(images/products/pasture-pride.jpg)"></div>
 
     <h3>PASTURE PRIDE CHEESE</h3>
@@ -271,6 +240,20 @@ include "header.php";
     <br>
 
     <a href="product.php?17" class="select-products">SELECT PRODUCTS</a>
+  </div>
+
+  <div class="artisan-cheese">
+    <div class="ac-image" style="background-image: url(images/products/roelli.jpg)"></div>
+
+    <h3>ROELLI CHEESE HAUS</h3>
+
+    Roelli Cheese Haus is located East of Shullsburg, Wisconsin on State Highway 11 and has a family tradition of making hancrafted specialty cheese for nearly 100 years. Adolph Roelli came to this area of Lafayette County Wisconsin from Switzerland in the 1920s. From that time, four generations of the Roelli family have been in the cheese business at this location, building on Adolph's commitment to quality, service, and customer satisfaction.<br>
+    <br>
+
+    Chris Roelli, now one of Wisconsin's distinguished Master Cheesemakers, crafts small batches of award winning original recipe cheeses such as Dunbarton Blue, Red Rock and Little Mountain.  Roelli is also known for his fresh cheddar curds, cellar-aged cheddars, Farmhouse Colby-style, Monterey Jack, Goudse Kaas, Havarti and Cheshire inspired cheese.<br>
+    <br>
+
+    <a href="http://www.roellicheese.com">www.roellicheese.com</a>
   </div>
 
   <div class="artisan-cheese">
