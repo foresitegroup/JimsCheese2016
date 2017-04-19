@@ -10,7 +10,7 @@ include "header.php";
   <div style="background-image: url(images/home-banner1.jpg);">
     <div class="overlay">
       <div class="site-width">
-        <h2>Jim's Cheese Provides the Highest Quality Wisconsin Cheese Products.</h2>
+        <h2>Providing Wisconsin's Finest Cheese since 1955.</h2>
 
         Call 800-345-3571 to Receive Special Pricing.<br>
         <br>

@@ -24,7 +24,7 @@ include "header.php";
   </div>
 </div>
 
-<div class="consultants">
+<div class="consultants" id="consultants">
   <div class="site-width">
     <h2>SALES CONSULTANTS</h2>
 
@@ -47,15 +47,6 @@ include "header.php";
     </div>
 
     <div class="one-third">
-      <div class="consultant-image" style="background-image: url(images/consultant-billie-jo-kirchner.jpg);"></div>
-
-      <h3>Billie Jo Kirchner</h3>
-
-      <?php email("billie@jimscheese.com"); ?><br>
-      Ext. 115
-    </div>
-
-    <div class="one-third">
       <div class="consultant-image" style="background-image: url(images/consultant-ray-burbach.jpg);"></div>
 
       <h3>Ray Burbach</h3>
@@ -73,14 +64,32 @@ include "header.php";
       Ext. 105
     </div>
 
-    <div class="one-third bar">
+    <div class="one-third">
+      <div class="consultant-image" style="background-image: url(images/consultant-carol-marshall.jpg);"></div>
+
+      <h3>Carol Marshall</h3>
+
+      <?php email("carol@jimscheese.com"); ?><br>
+      Ext. 109
+    </div>
+
+    <div class="one-third">
+      <div class="consultant-image" style="background-image: url(images/consultant-elaine-riege.jpg);"></div>
+
+      <h3>Elaine Riege</h3>
+
+      <?php email("elaine@jimscheese.com"); ?><br>
+      Ext. 116
+    </div>
+
+    <!-- <div class="one-third bar">
       <div class="bar-content">
          Interested in Becoming a Retailer?<br>
          <br>
 
          <a href="become-a-retailer.php" class="arrow-link">LEARN MORE</a>
       </div>
-    </div>
+    </div> -->
   </div>
 </div>
 

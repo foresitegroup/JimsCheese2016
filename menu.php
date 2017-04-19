@@ -13,6 +13,7 @@
 
       $msubresult->close();
       ?>
+      <li><a href="<?php echo $TopDir; ?>pdf/Jim's_Cheese_Product_Guide.pdf">Product Guide PDF</a></li>
     </ul>
   </li>
   <li>
@@ -25,13 +26,14 @@
 </ul>
 <ul class="menu-right">
   <li><a href="<?php echo $TopDir; ?>blog">Jim's Blog</a></li>
-  <li><a href="http://www.jimscheesepantry.com">Jim's Pantry</a></li>
+  <li><a href="http://www.jimscheesepantry.com">Caf&eacute; &amp; Deli</a></li>
   <li>
     <a href="<?php echo $TopDir; ?>about.php">About</a>
     <ul>
       <li><a href="<?php echo $TopDir; ?>contact.php">Contact</a></li>
       <li><a href="<?php echo $TopDir; ?>become-a-retailer.php">Become A Retailer</a></li>
       <li><a href="<?php echo $TopDir; ?>customer-service.php">Customer Service</a></li>
+      <li><a href="<?php echo $TopDir; ?>customer-service.php#consultants">Sales Consultants</a></li>
       <li><a href="<?php echo $TopDir; ?>employment.php">Employment</a></li>
     </ul>
   </li>
