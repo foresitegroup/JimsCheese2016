@@ -157,7 +157,7 @@ include "header.php";
 
     <h3>LACLARE FARMS</h3>
 
-    Larry and Clara Hedrich, the La &amp; Clare part of LaClare, had a dream to raise their now five grown children on a farm. They purchased a 22 acre farm, in 1978, on the outskirts of Chilton where they began their dairy goat operation and raised their five children. Within the last year LaClare Farms has had the great honor of being the first runner up, Best of Show with its Standard Market Cave Aged Chandoka. LaClare Farms makes this Chandoka and Standard Market aged it in their caves.<br>
+    Jim's Cheese carries Fondy Jack Pepper Jack, patterned after a monterey jack, this cheese is mild, creamy and fresh. And Evalon, aged goat cheese, which grates and shreds well, which makes it a perfect cooking cheese.<br>
     <br>
 
     <a href="http://www.laclarefarm.com">www.laclarefarm.com</a>
@@ -247,10 +247,7 @@ include "header.php";
 
     <h3>ROELLI CHEESE HAUS</h3>
 
-    Roelli Cheese Haus is located East of Shullsburg, Wisconsin on State Highway 11 and has a family tradition of making hancrafted specialty cheese for nearly 100 years. Adolph Roelli came to this area of Lafayette County Wisconsin from Switzerland in the 1920s. From that time, four generations of the Roelli family have been in the cheese business at this location, building on Adolph's commitment to quality, service, and customer satisfaction.<br>
-    <br>
-
-    Chris Roelli, now one of Wisconsin's distinguished Master Cheesemakers, crafts small batches of award winning original recipe cheeses such as Dunbarton Blue, Red Rock and Little Mountain.  Roelli is also known for his fresh cheddar curds, cellar-aged cheddars, Farmhouse Colby-style, Monterey Jack, Goudse Kaas, Havarti and Cheshire inspired cheese.<br>
+    Jim's Cheese carries Rollie's Red Rock Cheese is an American style, naturally rinded cheddar cheese with a slight blue vein and Dumbarton Blue Cheese cellar cured cheese with the earthy character of a fine English-style cheddar.<br>
     <br>
 
     <a href="http://www.roellicheese.com">www.roellicheese.com</a>
@@ -282,6 +279,17 @@ include "header.php";
     <br>
 
     <a href="product.php?19" class="select-products">SELECT PRODUCTS</a>
+  </div>
+
+  <div class="artisan-cheese">
+    <div class="ac-image" style="background-image: url(images/products/uplands-cheese-pleasant-ridge-reserve.jpg)"></div>
+
+    <h3>UPLANDS CHEESE</h3>
+
+    Uplands Cheese dairy farm sits up on top of Pleasant Ridge, in the Driftless region of southwestern Wisconsin. Their cows are milked seasonally, in time with the pastures, and make two traditional, farmstead cheeses: Pleasant Ridge Reserve, made in the summer months, while the cows eat fresh pasture. Rush Creek Reserve, made in the fall, when their diet changes to hay.<br>
+    <br>
+
+    <a href="https://www.uplandscheese.com">www.uplandscheese.com</a>
   </div>
 
   <div class="artisan-cheese">
