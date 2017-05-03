@@ -1,6 +1,6 @@
 <?php
-$GLOBALS['MonthlySpecials'] = "March-April_2017_Specials";
-$GLOBALS['MonthlySpecialsTitle'] = "March / April 2017 Specials";
+$GLOBALS['MonthlySpecials'] = "May_2017_Specials";
+$GLOBALS['MonthlySpecialsTitle'] = "May 2017 Specials";
 
 if (!isset($TopDir)) $TopDir = "";
 
@@ -48,6 +48,19 @@ function email($address, $name="") {
         });
       });
     </script>
+
+    <!-- BEGIN Google Analytics -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-33501604-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <!-- END Google Analytics -->
   </head>
   <body>
 

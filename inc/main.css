@@ -1128,7 +1128,7 @@ A.arrow-link:after {
   position: static;
   width: 100%;
   height: auto;
-  overflow: auto;
+  overflow: none;
 }
 
 .where-to-buy-left H2 {
@@ -2502,7 +2502,7 @@ A.arrow-link:after {
 
   .scrolling-menu UL LI UL LI A:link,
   .scrolling-menu UL LI UL LI A:visited {
-    font-size: 22px;
+    font-size: 4.5vw;
     padding: 0 0.5em;
   }
 

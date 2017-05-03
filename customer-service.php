@@ -31,7 +31,7 @@ include "header.php";
     <div class="one-third">
       <div class="consultant-image" style="background-image: url(images/consultant-stephanie-ganster.jpg);"></div>
 
-      <h3>Stephanie Ganster</h3>
+      <h3>Stephanie Collins</h3>
 
       <?php email("stephanie@jimscheese.com"); ?><br>
       Ext. 100
