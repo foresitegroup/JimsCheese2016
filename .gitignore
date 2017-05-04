@@ -1,5 +1,6 @@
 inc/dbconfig.php
 admin/login.php
+admin/inc/PHPExcel*
 images/products
 pdf
 resellers-login.php

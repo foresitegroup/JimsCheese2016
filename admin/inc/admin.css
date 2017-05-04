@@ -14,7 +14,7 @@ TEXTAREA {
 
 SELECT {
   width: 100%;
-  margin: 0.5em 0;
+  margin: 0.4em 0;
   font-weight: normal;
 }
 
@@ -47,6 +47,8 @@ SELECT {
   width: 5.3em;
   font-size: 25px;
 }
+
+.controls2 { width: 3.5em; }
 
 .record {
   float: left;
@@ -303,9 +305,6 @@ SELECT {
   padding: 0;
 }
 
-
-
-
 .products-link:link,
 .products-link:visited {
   color: #000000;
@@ -314,4 +313,21 @@ SELECT {
 .products-link:hover,
 .products-link:active {
   color: #B7262F;
+}
+
+#togglebutton {
+  cursor: pointer;
+  font-size: 85%;
+  font-weight: bold;
+  background: #E7B44B;
+  padding: 5px 5px;
+  width: auto;
+  margin: 0 auto 2em;
+  color: #000000;
+  border: 1px solid #B17906;
+  float: right;
+}
+
+#togglebutton:hover {
+  color: #3C3C3C;
 }

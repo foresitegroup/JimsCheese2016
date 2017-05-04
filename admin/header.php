@@ -49,7 +49,8 @@
           <?php if ($PageTitle != "Login") { ?>
           <ul>
             <li><a href="product-cats.php">Products</a></li>
-            <li><a href="where-to-buy.php">Where To Buy</a></li>
+            <li><a href="dealers.php">Dealers</a></li>
+            <li><a href="resellers.php">Resellers</a></li>
           </ul>
           <?php } ?>
         </div>

@@ -72,6 +72,7 @@ SELECT {
   -moz-transition: all 0.2s;
   transition: all 0.2s;
   overflow: auto; /* Good ol' IE */
+  min-height: 44px; /* Good ol' Firefox */
 }
 
 TEXTAREA {
@@ -99,6 +100,7 @@ TEXTAREA:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
 
 SELECT {
   padding-right: 30px;
+  min-height: 0;
 }
 
 .select {
