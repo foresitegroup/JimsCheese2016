@@ -3,7 +3,7 @@ include "../inc/dbconfig.php";
 
 switch ($_GET['a']) {
   case "add":
-    $mysqli->query("INSERT INTO `where_to_buy` (
+    $mysqli->query("INSERT INTO where_to_buy (
                 customer,
                 address,
                 city,
@@ -13,9 +13,9 @@ switch ($_GET['a']) {
                 latitude,
                 longitude
                 ) VALUES (
-                '" . mysql_real_escape_string($_POST['customer']) . "',
-                '" . mysql_real_escape_string($_POST['address']) . "',
-                '" . mysql_real_escape_string($_POST['city']) . "',
+                '" . $_POST['customer'] . "',
+                '" . $_POST['address'] . "',
+                '" . $_POST['city'] . "',
                 '" . $_POST['state'] . "',
                 '" . $_POST['zip'] . "',
                 '" . $_POST['telephone'] . "',
@@ -25,9 +25,9 @@ switch ($_GET['a']) {
     break;
   case "edit":
     $mysqli->query("UPDATE where_to_buy SET
-                customer = '" . mysql_real_escape_string($_POST['customer']) . "',
-                address = '" . mysql_real_escape_string($_POST['address']) . "',
-                city = '" . mysql_real_escape_string($_POST['city']) . "',
+                customer = '" . $_POST['customer'] . "',
+                address = '" . $_POST['address'] . "',
+                city = '" . $_POST['city'] . "',
                 state = '" . $_POST['state'] . "',
                 zip = '" . $_POST['zip'] . "',
                 telephone = '" . $_POST['telephone'] . "',
