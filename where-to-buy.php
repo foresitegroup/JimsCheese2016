@@ -285,10 +285,10 @@ include "header.php";
     var google_conversion_value = 0;
     /* ]]> */
   </script>
-  <script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js"></script>
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
   <noscript>
     <div style="display:inline;">
-      <img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1008631094/?value=0&amp;label=5exrCPLk4wMQtvr54AM&amp;guid=ON&amp;script=0"/>
+      <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1008631094/?value=0&amp;label=5exrCPLk4wMQtvr54AM&amp;guid=ON&amp;script=0"/>
     </div>
   </noscript>
 </div>
