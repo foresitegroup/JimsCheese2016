@@ -24,8 +24,12 @@ include "header.php";
   <div class="site-width">
     <h2>OPEN POSITIONS</h2>
 
-    <h3>Delivery Driver</h3>
-    Lake Forest Distribution LLC (Jim's Cheese) currently has an opening for a Delivery Driver. Please download and fill-in the provided <a href="pdf/Driver_Application_Form.pdf">Driver Application Form</a>. Form should be faxed to 920-478-2320. Please add our fax # to the mailing address box before it is sent.
+    <h3>Now hiring for Seasonal Positions</h3>
+    Apply at:<br>
+    Life Style Staffing<br>
+    308 W. Main Street<br>
+    Watertown, WI 53094<br>
+    Phone Number: 1-800-813-4874
   </div>
 </div>
 
