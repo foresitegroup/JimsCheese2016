@@ -20,24 +20,28 @@ include "header.php";
     <a href="pdf/resellers/JCPricingV1.pdf">Jim's Cheese Pricing</a><br>
     <a href="pdf/resellers/LFAPricingV1.pdf">Lake Forest Artisan Pricing</a><br>
     <a href="pdf/resellers/CutoutsPricingV1.pdf">Cutouts Pricing</a><br>
+    <a href="pdf/resellers/Wisconsin_Aged_Cheddar_V1.pdf">Wisconsin Aged Cheddar Pricing</a><br>
     <?php } ?>
     
     <?php if ($ThePassword == $Zone2Password) { $zone = 2; ?>
     <a href="pdf/resellers/JCPricingV2.pdf">Jim's Cheese Pricing</a><br>
     <a href="pdf/resellers/LFAPricingV2.pdf">Lake Forest Artisan Pricing</a><br>
     <a href="pdf/resellers/CutoutsPricingV2.pdf">Cutouts Pricing</a><br>
+    <a href="pdf/resellers/Wisconsin_Aged_Cheddar_V2.pdf">Wisconsin Aged Cheddar Pricing</a><br>
     <?php } ?>
     
     <?php if ($ThePassword == $Zone3Password) { $zone = 3; ?>
     <a href="pdf/resellers/JCPricingV3.pdf">Jim's Cheese Pricing</a><br>
     <a href="pdf/resellers/LFAPricingV3.pdf">Lake Forest Artisan Pricing</a><br>
     <a href="pdf/resellers/CutoutsPricingV3.pdf">Cutouts Pricing</a><br>
+    <a href="pdf/resellers/Wisconsin_Aged_Cheddar_V3.pdf">Wisconsin Aged Cheddar Pricing</a><br>
     <?php } ?>
     
     <?php if ($ThePassword == $Zone4Password) { $zone = 4; ?>
     <a href="pdf/resellers/JCPricingV4.pdf">Jim's Cheese Pricing</a><br>
     <a href="pdf/resellers/LFAPricingV4.pdf">Lake Forest Artisan Pricing</a><br>
     <a href="pdf/resellers/CutoutsPricingV4.pdf">Cutouts Pricing</a><br>
+    <a href="pdf/resellers/Wisconsin_Aged_Cheddar_V4.pdf">Wisconsin Aged Cheddar Pricing</a><br>
     <?php } ?>
     
     <a href="pdf/Jim's_Cheese_Brochure.pdf">Brochure</a><br>
