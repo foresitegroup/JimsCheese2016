@@ -21,8 +21,8 @@ function email($address, $name="") {
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $TopDir; ?>images/favicon.ico">
     <link rel="apple-touch-icon" href="<?php echo $TopDir; ?>images/apple-touch-icon.png">
 
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="Jim's Cheese, LLC, located in Waterloo, WI, has long been known for Wisconsin Aged Cheddar, artisan cheeses, and waxed cut-outs. Representing the Dairy State, we're proud to grow with Wisconsin's finest artisan, single herd, small-batch and rBGH-free cheeses from makers who produce the most unique and creative cheeses available anywhere. We offer over 400 varieties of great Wisconsin Cheese and over 300 different waxed cheese cut-outs along with a variety of complementing condiments such as sausages, crackers, candies and gift components.">
+    <meta name="keywords" content="wisconsin cheese, domestic, improted, smoked, artisan, cut outs, shapes, sliced, High temp, gift boxes, sausage, waterloo, jim's cheese pantry, wholesale cheese, aged cheddar, swiss, waxed cheese, cheese cut-outs">
     <meta name="designer" content="Foresite Group">
     <meta name="author" content="Jim's Cheese">
 
