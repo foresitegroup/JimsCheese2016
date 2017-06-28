@@ -1,5 +1,7 @@
 <?php
 $PageTitle = "Artisan Cheeses";
+$Description = "Jim's Cheese has the largest selection of Artisan and Farmstead Cheese from numerous cheesemakers, such as Lake Forest Artisan Cheese, Clock Shadow Creamery, Emmi Roth USA, LaClare Farms and much more. Find your new favorite!";
+$Keywords = "lake forest cheese, artisan cheese, carr valley cheese, chalet cheese, clock shadow creamery, comstock creamery, emmi roth usa, edelweiss creamery, harmony specialty dairy, kopek farm inc, holland's family cheese, laclare farms, maple leaf cheese, nordic creamery, martha's pimento cheese, roelli cheese haus, red barn family farms, pasture pride cheese, saxon homestead creamery, uplands cheese, satori foods, widmer's cheese cellars, farmstead cheese, unique cheese, specialty cheese";
 include "header.php";
 ?>
 

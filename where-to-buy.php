@@ -7,6 +7,9 @@ $wtb = "no";
 
 $PageTitle = "Where To Buy";
 
+$Description = "Enter your zip code to find a Jim's Cheese retailer near you.";
+$Keywords = "find a location, where to buy cheese, cheese store locations, find cheese retailer, cheese retailer, cheese retailer locations, cheese distirbutor, cheese distributor locations";
+
 include "header.php";
 ?>
 
@@ -65,7 +68,7 @@ include "header.php";
 
     $MyLat = $json->{'results'}[0]->{'geometry'}->{'location'}->{'lat'};
     $MyLon = $json->{'results'}[0]->{'geometry'}->{'location'}->{'lng'};
-    
+
     // Search DB for any records within range of zip code
     $result = $mysqli->query("SELECT *, ( 3959 * acos( cos( radians($MyLat) ) * cos( radians( latitude ) ) * cos( radians( longitude ) - radians($MyLon) ) + sin( radians($MyLat) ) * sin( radians( latitude ) ) ) ) AS distance FROM where_to_buy HAVING distance < " . $_POST['distance'] . " ORDER BY distance;");
 
@@ -75,7 +78,7 @@ include "header.php";
       // Sanitize the address for geocoding
       $searchaddress = trim($row['address']) . " " . trim($row['city']) . " " . trim($row['state']) . " " . trim($row['zip']);
       $searchaddress = urlencode($searchaddress);
-      
+
       // Format location/infobox data
       $info = "<h3>" . stripslashes($row['customer']) . "</h3>";
       $info .= stripslashes(ucwords(strtolower($row['address']))) . "<br>";
@@ -89,7 +92,7 @@ include "header.php";
 
       // Create map markers and infobox
       $Markers .= "[\"" . $info . "\", " . $row['latitude'] . ", " . $row['longitude'] . "],";
-      
+
       // Display locations in sidebar
       echo "<div class=\"location\">\n" . $info . "\n</div>\n";
     }
@@ -240,14 +243,14 @@ include "header.php";
           "stylers": [{"color": "#92998d"} ]
         }
       ]);
-      
+
       var locations = [
       <?php echo $Markers; ?>
       ];
-      
+
       var infowindow = new google.maps.InfoWindow();
       var bounds = new google.maps.LatLngBounds();
-      
+
       for (var i = 0; i < locations.length; i++) {
         var marker = new google.maps.Marker({
           position: new google.maps.LatLng(locations[i][1], locations[i][2]),

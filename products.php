@@ -8,6 +8,9 @@ if ($_SERVER['QUERY_STRING'] == "") {
   $BannerTitle = "JIM'S CHEESE PRODUCTS";
   $BannerText = "WISCONSIN'S FINEST";
   $PageLink = "products.php";
+
+  $Description = "Browse the largest selection of Wisconsin Artisan & Farmstead cheese right here! Shop Jim's Cheese now.";
+  $Keywords = "artisan cheese, farmstead cheese, aged cheese, specialty cheese, hi temp cheese, cheese block, cheese loaf, cheese horn, cheese round, smoked cheese, wrapped cheese, wrapped cheese rounds, mini cheese horns, cheese cutouts, cheese cut outs, cheese curds, cheese strings, cheese whips, sliced cheese, shredded cheese, cheese gift boxes, cheese gift baskets";
 } else {
   $result = $mysqli->query("SELECT * FROM products_category WHERE id = '" . $_SERVER['QUERY_STRING'] . "'");
   $row = $result->fetch_array(MYSQLI_ASSOC);

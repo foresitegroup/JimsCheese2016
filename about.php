@@ -1,5 +1,7 @@
 <?php
 $PageTitle = "About";
+$Description = "Jim's Cheese has distributed Wisconsin's finest cheese since 1955. We pride ourselves on our outstanding customer service. Learn more here.";
+$Keywords = "Jim's cheese, cheese in waterloo, cheese in wisconsin, cheese company, cheese company in wisconsin, cheese retailer opportunities, cheese retailers, cheese delivery, cheese sales";
 include "header.php";
 ?>
 

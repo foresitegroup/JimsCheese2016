@@ -23,6 +23,9 @@ else :
 	$HeaderClass = "banner-blog-index";
   $PageTitle = "Jim's Blog";
   $HeaderText = "Jim's Cheese Proudly Since 1955";
+
+  $Description = "Find weekly posts on different types of cheese, as well as cheese pairing suggestions on Jim's Cheese blog. Check it out now!";
+  $Keywords = "cheese of the week, cheese blog, cheese ideas, cheese pairings, information about cheese, how cheese is made, what is cheese";
 endif;
 
 include "../header.php";

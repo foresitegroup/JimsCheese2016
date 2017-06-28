@@ -10,6 +10,9 @@ function email($address, $name="") {
   if ($name == "") $name = $email;
   echo "<a href=\"&#109;&#97;&#105;&#108;&#116;&#111;&#58;$email\">$name</a>";
 }
+
+$Description = (isset($Description)) ? $Description : "Jim's Cheese carries the largest selection of Wisconsin Artisan & Farmstead cheese, as well as a large variety of sausages, spreads, sauces, snacks and more. Proudly since 1955. Call for special pricing.";
+$Keywords = (isset($Keywords)) ? $Keywords : "wisconsin's finest cheese, wisconsin cheese, cheese cutouts, artisan cheese, wisconsin artisan cheese, retail cheese, cheese blocks, cheese loaf, farmstead cheese, cheese gift baskets, cheese products, wisconsin cheese distributor, cheese distributor, cheese store, cheese, cheeses, largest selection of cheese, fine cheese";
 ?>
 <!DOCTYPE html>
 <html>
@@ -21,8 +24,8 @@ function email($address, $name="") {
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $TopDir; ?>images/favicon.ico">
     <link rel="apple-touch-icon" href="<?php echo $TopDir; ?>images/apple-touch-icon.png">
 
-    <meta name="description" content="Jim's Cheese, LLC, located in Waterloo, WI, has long been known for Wisconsin Aged Cheddar, artisan cheeses, and waxed cut-outs. Representing the Dairy State, we're proud to grow with Wisconsin's finest artisan, single herd, small-batch and rBGH-free cheeses from makers who produce the most unique and creative cheeses available anywhere. We offer over 400 varieties of great Wisconsin Cheese and over 300 different waxed cheese cut-outs along with a variety of complementing condiments such as sausages, crackers, candies and gift components.">
-    <meta name="keywords" content="wisconsin cheese, domestic, improted, smoked, artisan, cut outs, shapes, sliced, High temp, gift boxes, sausage, waterloo, jim's cheese pantry, wholesale cheese, aged cheddar, swiss, waxed cheese, cheese cut-outs">
+    <meta name="description" content="<?php echo $Description; ?>">
+    <meta name="keywords" content="<?php echo $Keywords; ?>">
     <meta name="designer" content="Foresite Group">
     <meta name="author" content="Jim's Cheese">
 
