@@ -11,7 +11,7 @@ function email($address, $name="") {
   echo "<a href=\"&#109;&#97;&#105;&#108;&#116;&#111;&#58;$email\">$name</a>";
 }
 
-$Description = (isset($Description)) ? $Description : "Jim's Cheese carries the largest selection of Wisconsin Artisan & Farmstead cheese, as well as a large variety of sausages, spreads, sauces, snacks and more. Proudly since 1955. Call for special pricing.";
+$Description = (isset($Description)) ? $Description : "Jim's Cheese carries the largest selection of Wisconsin Artisan & Farmstead cheese, as well as sausages, spreads, sauces, snacks and more.";
 $Keywords = (isset($Keywords)) ? $Keywords : "wisconsin's finest cheese, wisconsin cheese, cheese cutouts, artisan cheese, wisconsin artisan cheese, retail cheese, cheese blocks, cheese loaf, farmstead cheese, cheese gift baskets, cheese products, wisconsin cheese distributor, cheese distributor, cheese store, cheese, cheeses, largest selection of cheese, fine cheese";
 ?>
 <!DOCTYPE html>
