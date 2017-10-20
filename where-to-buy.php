@@ -63,7 +63,7 @@ include "header.php";
 
     <?php
     // Get lat/lon of inputted zip code
-    $json = file_get_contents("https://maps.googleapis.com/maps/api/geocode/json?address=" . $_POST['zip']);
+    $json = file_get_contents("https://maps.googleapis.com/maps/api/geocode/json?address=" . $_POST['zip'] . "&sensor=false&key=$GoogleAPI");
     $json = json_decode($json);
 
     $MyLat = $json->{'results'}[0]->{'geometry'}->{'location'}->{'lat'};
@@ -105,7 +105,7 @@ include "header.php";
     ?>
   </div>
 
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsYHlhPNJrhIiwvbdMa9w5xcjE3iAAJ2A"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=<?php echo $GoogleAPI; ?>"></script>
   <script>
     function initialize() {
       var MyLatLng = new google.maps.LatLng(<?php echo $MyLat . ", " . $MyLon; ?>);
