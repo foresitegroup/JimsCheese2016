@@ -1,6 +1,6 @@
 <?php
-$GLOBALS['MonthlySpecials'] = "October_2017_Specials";
-$GLOBALS['MonthlySpecialsTitle'] = "October 2017 Specials";
+$GLOBALS['MonthlySpecials'] = "November_2017_Specials";
+$GLOBALS['MonthlySpecialsTitle'] = "November 2017 Specials";
 
 if (!isset($TopDir)) $TopDir = "";
 
