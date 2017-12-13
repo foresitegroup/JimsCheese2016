@@ -82,7 +82,7 @@ $Keywords = (isset($Keywords)) ? $Keywords : "wisconsin's finest cheese, wiscons
       <div class="site-width">
         <a href="<?php echo $TopDir; ?>contact.php">Contact</a>
         <a href="<?php echo $TopDir; ?>pdf/Jim's_Cheese_Product_Guide.pdf">Product Guide</a>
-        <a href="<?php echo $TopDir; ?>pdf/resellers/<?php echo $GLOBALS['MonthlySpecials']; ?>.pdf">Monthly Specials</a>
+        <!-- <a href="<?php //echo $TopDir; ?>pdf/resellers/<?php //echo $GLOBALS['MonthlySpecials']; ?>.pdf">Monthly Specials</a> -->
         <a href="<?php echo $TopDir; ?>resellers.php">Customer Login <i class="fa fa-user" aria-hidden="true"></i></a>
       </div>
     </div>

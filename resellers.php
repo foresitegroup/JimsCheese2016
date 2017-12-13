@@ -44,8 +44,8 @@ include "header.php";
     <a href="pdf/resellers/Wisconsin_Aged_Cheddar_V4.pdf">Wisconsin Aged Cheddar Pricing</a><br>
     <?php } ?>
     
-    <a href="pdf/Jim's_Cheese_Brochure.pdf">Brochure</a><br>
-    <a href="pdf/resellers/<?php echo $GLOBALS['MonthlySpecials']; ?>.pdf"><?php echo $GLOBALS['MonthlySpecialsTitle']; ?></a>
+    <a href="pdf/Jim's_Cheese_Brochure.pdf">Brochure</a><!-- <br>
+    <a href="pdf/resellers/<?php //echo $GLOBALS['MonthlySpecials']; ?>.pdf"><?php //echo $GLOBALS['MonthlySpecialsTitle']; ?></a> -->
   </div><br>
   <br>
 
