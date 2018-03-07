@@ -64,7 +64,7 @@ include "header.php";
     Clock Shadow Creamery, Wisconsin's first urban cheese factory, is located in the neighborhood of some of the city's newest and most interesting restaurants and Milwaukee Brewing Company. Clock Shadow Creamery produces fresh cheeses geared to needs of local consumers, restaurants and food processors. We honor the ethnic traditions of our neighborhood and introduce new cheeses reflecting the dynamic creativity of Wisconsin's specialty cheese industry.<br>
     <br>
 
-    <a href="http://www.carrvalleycheese.com">www.carrvalleycheese.com</a><br>
+    <a href="http://www.clockshadowcreamery.com">www.clockshadowcreamery.com</a><br>
     <br>
 
     <a href="product.php?5" class="select-products">SELECT PRODUCTS</a>
