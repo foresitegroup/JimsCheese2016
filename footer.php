@@ -84,8 +84,8 @@
 
       <div class="right">
         <a href="https://www.facebook.com/JimsCheese"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/JimsCheese"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/jimscheesewi/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 
         <a href="http://www.eatwisconsincheese.com"><img src="<?php echo $TopDir; ?>images/wisconsin-cheese-logo.png" alt="Wisconsin Cheese"></a>
       </div>
