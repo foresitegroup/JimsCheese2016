@@ -26,7 +26,7 @@
 </ul>
 <ul class="menu-right">
   <li><a href="<?php echo $TopDir; ?>blog">Jim's Blog</a></li>
-  <li><a href="http://www.jimscheesepantry.com">Caf&eacute; &amp; Deli</a></li>
+  <li><a href="http://www.jimscheesepantry.com">Jim's Pantry</a></li>
   <li>
     <a href="<?php echo $TopDir; ?>about.php">About</a>
     <ul>

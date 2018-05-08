@@ -56,7 +56,7 @@ include "header.php";
     <a href="product.php?4" class="select-products">SELECT PRODUCTS</a>
   </div>
 
-  <div class="artisan-cheese">
+<!--   <div class="artisan-cheese">
     <div class="ac-image" style="background-image: url(images/products/clock-shadow-creamery.jpg)"></div>
 
     <h3>CLOCK SHADOW CREAMERY</h3>
@@ -68,7 +68,7 @@ include "header.php";
     <br>
 
     <a href="product.php?5" class="select-products">SELECT PRODUCTS</a>
-  </div>
+  </div> -->
 
   <div class="artisan-cheese">
     <div class="ac-image" style="background-image: url(images/products/comstock-creamery.jpg)"></div>
@@ -84,7 +84,7 @@ include "header.php";
     <a href="product.php?6" class="select-products">SELECT PRODUCTS</a>
   </div>
 
-  <div class="artisan-cheese">
+<!--   <div class="artisan-cheese">
     <div class="ac-image" style="background-image: url(images/products/edelweiss-creamery.jpg)"></div>
 
     <h3>EDELWEISS CREAMERY</h3>
@@ -96,7 +96,7 @@ include "header.php";
     <br>
 
     <a href="product.php?7" class="select-products">SELECT PRODUCTS</a>
-  </div>
+  </div> -->
 
   <div class="artisan-cheese">
     <div class="ac-image" style="background-image: url(images/products/emmi-roth.jpg)"></div>
@@ -185,7 +185,7 @@ include "header.php";
     <a href="product.php?12" class="select-products">SELECT PRODUCTS</a>
   </div>
 
-  <div class="artisan-cheese">
+<!--   <div class="artisan-cheese">
     <div class="ac-image" style="background-image: url(images/products/marthas-pimento-cheese.jpg)"></div>
 
     <h3>MARTHA'S PIMENTO CHEESE</h3>
@@ -197,7 +197,7 @@ include "header.php";
     <br>
 
     <a href="product.php?13" class="select-products">SELECT PRODUCTS</a>
-  </div>
+  </div> -->
 
   <div class="artisan-cheese">
     <div class="ac-image" style="background-image: url(images/products/nordic_grumpy_goat_cheese.jpg)"></div>
@@ -227,7 +227,7 @@ include "header.php";
     <a href="product.php?16" class="select-products">SELECT PRODUCTS</a>
   </div>
 
-  <div class="artisan-cheese">
+<!--   <div class="artisan-cheese">
     <div class="ac-image" style="background-image: url(images/products/red-barnfarms.jpg)"></div>
 
     <h3>RED BARN FAMILY FARMS</h3>
@@ -242,7 +242,7 @@ include "header.php";
     <br>
 
     <a href="product.php?17" class="select-products">SELECT PRODUCTS</a>
-  </div>
+  </div> -->
 
   <div class="artisan-cheese">
     <div class="ac-image" style="background-image: url(images/products/roelli.jpg)"></div>

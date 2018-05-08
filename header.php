@@ -89,7 +89,7 @@ $Keywords = (isset($Keywords)) ? $Keywords : "wisconsin's finest cheese, wiscons
 
     <div class="site-width">
       <div class="menu">
-        <?php include "menu.php" ?>
+        <?php include "menu.php"; ?>
       </div>
     </div>
   </div>
@@ -100,7 +100,7 @@ $Keywords = (isset($Keywords)) ? $Keywords : "wisconsin's finest cheese, wiscons
         <a href="." id="logo-scrolling"><img src="<?php echo $TopDir; ?>images/logo-scrolling.png" alt=""></a>
         <input type="checkbox" id="show-menu" role="button">
         <label for="show-menu" id="menu-toggle"></label>
-        <div><?php include "menu.php" ?></div>
+        <div><?php include "menu.php"; ?></div>
       </div>
     </div>
   </div>
