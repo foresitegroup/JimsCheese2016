@@ -76,9 +76,9 @@
     <div class="site-width">
       <div class="left">
         <a href="<?php echo $TopDir; ?>products.php">PRODUCTS</a>
-        <a href="<?php echo $TopDir; ?>customer-service.php">CUSTOMER SERVICE</a>
+        <!-- <a href="<?php echo $TopDir; ?>customer-service.php">CUSTOMER SERVICE</a> -->
         <a href="<?php echo $TopDir; ?>resellers.php">CUSTOMER LOGIN</a>
-        <a href="<?php echo $TopDir; ?>pdf/resellers/<?php echo $GLOBALS['MonthlySpecials']; ?>.pdf">MONTHLY SPECIALS</a>
+        <!-- <a href="<?php echo $TopDir; ?>pdf/resellers/<?php echo $GLOBALS['MonthlySpecials']; ?>.pdf">MONTHLY SPECIALS</a> -->
         <a href="<?php echo $TopDir; ?>where-to-buy.php">WHERE TO BUY</a>
       </div>
 
