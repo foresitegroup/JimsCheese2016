@@ -1,4 +1,5 @@
 <ul class="menu-left">
+  <li><a href="<?php echo $TopDir; ?>.">Home</a></li>
   <li>
     <a href="<?php echo $TopDir; ?>products.php">Products</a>
     <ul>
@@ -22,9 +23,9 @@
       <li><a href="<?php echo $TopDir; ?>products.php?1">Artisan and Farmstead Cheeses</a></li>
     </ul>
   </li>
-  <li><a href="<?php echo $TopDir; ?>where-to-buy.php">Where to Buy</a></li>
 </ul>
 <ul class="menu-right">
+  <li><a href="<?php echo $TopDir; ?>where-to-buy.php">Where to Buy</a></li>
   <li><a href="<?php echo $TopDir; ?>blog">Jim's Blog</a></li>
   <!-- <li><a href="http://www.jimscheesepantry.com">Jim's Pantry</a></li> -->
   <li>
