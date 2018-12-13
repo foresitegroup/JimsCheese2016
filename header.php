@@ -75,6 +75,10 @@ $Keywords = (isset($Keywords)) ? $Keywords : "wisconsin's finest cheese, wiscons
     </form>
   </div>
 
+  <div id="alert">
+    Jim's Cheese Pantry &amp; Deli has closed. Visit the <a href="where-to-buy.php">Where To Buy</a> page to purchase our products.
+  </div>
+
   <div class="jc-header">
     <a href="<?php echo $TopDir; ?>." id="logo"><img src="<?php echo $TopDir; ?>images/logo.png" alt=""></a>
 

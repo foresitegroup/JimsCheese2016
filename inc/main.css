@@ -297,6 +297,25 @@ A.arrow-link:after {
   text-align: center;
 }
 
+#alert {
+  padding: 1.25em 2%;
+  background: #000000;
+  color: #E7A33E;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 1em;
+  text-align: center;
+}
+
+#alert A:link, #alert A:visited {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+#alert A:hover, #alert A:active {
+  color: #FBB042;
+}
+
 .jc-header {
   background: #FBB042;
   color: #7F5818;
